@@ -1,0 +1,179 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: black;
+    margin-bottom: 0%;
+}
+.nav ul {
+    overflow: hidden;
+    background-color: #333;
+    display: flex;
+    width: 100%;
+    
+  
+    top: 0%;
+}
+
+.nav ul li {
+    padding: 10px;
+    display:inline;
+}
+
+.nav ul li a {
+    color: #fff;
+    text-align: center;
+    padding: 10px 14px;
+    text-decoration: none;
+}
+
+.nav ul li a:hover {
+    background-color: blue;
+    border-radius: 8px;
+}
+   .active {
+    background-color: blueviolet;
+    color: white;
+    padding: 6px 4px 6px 4px;
+    border-radius: 5px;
+  }
+  
+  /* Style for the profile section */
+   .profile {
+    
+    padding: 1px 16px;
+    
+  } 
+  /* .rand1{
+    background-color: #CBC2ED;
+    color: bisque;
+    text-align:center;
+    display: inline-block;
+	
+	padding: 10px 1px;
+  margin-right: 40px;
+  margin-left: 200px;
+    border-radius :100px;
+  
+   
+
+  } */
+  .rand2{
+
+    color: #333;
+       background-color: #CBC2ED;
+      border-radius: 10px  ;
+   text-align: center;
+   margin-left: 150px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+      margin-right: 30px;
+      margin-bottom: 10px;
+      font: 1em sans-serif;
+      
+      display:inline-block;
+      
+      }
+
+
+  .ette{
+    color: antiquewhite;
+    background-color: #333; height:40px;
+    text-align: center;
+    padding: 10px;
+    font-weight: bolder;
+    font: 1em ;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+  text-shadow: grey 3px 1px;
+    
+  }
+  .container1{
+   margin-left: 50vh;
+   transition: 50vh;
+    margin-bottom: 10vh;
+  }
+ 
+  /* for contacts page  */
+
+.rand3{
+    border-color: #333;
+    border-radius:  20px; 
+    margin-left: 80px;
+}
+.meta{
+    border-radius: 20px;
+	margin-left:50px ;
+margin-right: 50px;
+padding-bottom: 30px;
+background-color: blanchedalmond;
+font-family:Georgia, 'Times New Roman', Times, serif;
+text-align: center;
+display: block;
+}
+.rnd{
+    background-color: blueviolet; height:50px;
+    text-align: center;
+    padding-top: 5px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+
+}
+.button{
+background-color: #CBC2ED;
+border-radius: 8px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.button:hover{
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.21);
+
+} 
+ /* for projects page */
+ /* .box-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.prj1 {
+  width: 150px;
+  height: 150px;
+  margin: 10px;
+  background-color: #3498db;
+  color: #fff;
+  text-align: center;
+  line-height: 150px; */
+.works{
+  background-color: #333;
+  margin-left: 20vh;
+display: justify;
+  text-align:center;
+  color: antiquewhite;
+  text-align: center;
+  padding: 5px 5px;
+  padding-inline: 3px;
+  font-weight: bolder;
+  margin-bottom: 15vh;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+  .prj{
+  margin-top: 10vh;
+  margin-left: 70vh;
+}
+.box{
+  display:inline-flex;
+  margin-left: 20vh;
+}
+
+
+.card{
+  background-color: blueviolet;
+  margin-left: 10px;
+  text-align: center;
+  border-bottom-left-radius: 10%;
+  border-bottom-right-radius: 10%;
+  color: bisque;
+
+}
+
+
